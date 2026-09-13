@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enquiry | Tarankan Exim LLP</title>
+<meta name="description" content="Send a product enquiry to Tarankan Exim LLP for export quotes on industrial, engineering and agricultural products from India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Space+Mono:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+<nav class="navigation-bar">
+  <div class="navigation-bar-box" id="navigation-bar-box1">
+    <div class="navigation-bar-box-logo">
+      <a href="index.html"><img id="tarankan-navigation-logo" src="Assets/Logo/tarankan-navigation-logo.png" alt="Tarankan Exim LLP logo"></a>
+      <a href="index.html" style="text-decoration:none;">
+        <span class="navigation-tarankan-logo-text"><img id = "navigation-tarankan-logo-text-image" src="Assets/Logo/tarankan-text-logo.png" alt="Tarankan Text"></img>
+        </span>
+      </a>
+    </div>
+    <div class="mobile-bar">
+      <button class="mobile-menu-icon" id="mobile-menu-icon" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="navigation-bar-box" id="navigation-bar-box2">
+    <div class="nav-hover-item"><a href="about-us.html" id="about-us-link">About Us</a></div>
+    <div class="nav-hover-item"><a href="products.html" id="products-link">Products</a></div>
+    <div class="nav-hover-item"><a href="export-markets.html" id="export-markets-link">Export Markets</a></div>
+  </div>
+
+  <div class="navigation-bar-box" id="navigation-bar-box3">
+    <span><a href="contact.html">Contact</a></span>
+    <span><a href="enquiry.html" id="enquiry-nav-link">Enquiry</a></span>
+  </div>
+</nav>
+
+<!-- Desktop hover boxes -->
+<div id="about-us-hover-box" class="hover-box">
+  <span class="hover-box-title">About Tarankan Exim LLP</span>
+  <p>Tarankan Exim LLP is a registered Limited Liability Partnership based in Maharashtra, India. We specialize in sourcing and exporting quality products from India to international markets. Our focus is on building long-term relationships through reliability, transparency, and customer satisfaction. Whether you require industrial products, engineering components, agricultural commodities, or customized export solutions, we ensure every shipment meets international standards.</p>
+  <a href="about-us.html" class="hover-box-link">Read more about us &rarr;</a>
+</div>
+
+<div id="products-hover-box" class="hover-box">
+  <span class="hover-box-title">Our Product Range</span>
+  <div class="products-columns">
+    <a href="products.html">Screws &amp; Fasteners</a>
+    <a href="products.html">Bearings</a>
+    <a href="products.html">Industrial Wires</a>
+    <a href="products.html">Cables</a>
+    <a href="products.html">Electric Motors</a>
+    <a href="products.html">Compressors</a>
+    <a href="products.html">Machine Parts</a>
+    <a href="products.html">Agricultural Produce</a>
+  </div>
+  <a href="products.html" class="hover-box-link">View all products &rarr;</a>
+</div>
+
+<div id="export-markets-hover-box" class="hover-box">
+  <span class="hover-box-title">Tarankan Exim LLP serves customers across</span>
+  <div class="markets-grid">
+    <span>USA</span><span>Canada</span><span>UK</span><span>Germany</span>
+    <span>France</span><span>Netherlands</span><span>UAE</span><span>Saudi Arabia</span>
+    <span>Oman</span><span>Kuwait</span><span>Singapore</span><span>Malaysia</span>
+    <span>Vietnam</span><span>Australia</span><span>South Africa</span><span>Kenya</span>
+  </div>
+  <a href="export-markets.html" class="hover-box-link">Explore export markets &rarr;</a>
+</div>
+
+<!-- Mobile sidebar -->
+<div class="sidebar-overlay" id="sidebar-overlay"></div>
+<aside class="mobile-sidebar" id="mobile-sidebar">
+  <button class="mobile-sidebar-close" id="mobile-sidebar-close" aria-label="Close menu">&times;</button>
+  <div class="mobile-sidebar-logo">
+    <img src="Assets/Logo/tarankan-navigation-logo.png" alt="Tarankan Exim LLP logo">
+    <span><img id = "mobile-navigation-logo-text" src="Assets/Logo/tarankan-text-logo.png" alt="Tarankan Exim LLP logo"></span>
+  </div>
+  <nav class="mobile-sidebar-links">
+    <a href="about-us.html">About Us</a>
+    <a href="products.html">Products</a>
+    <a href="export-markets.html">Export Markets</a>
+    <a href="contact.html">Contact</a>
+    <a href="enquiry.html">Enquiry</a>
+  </nav>
+  <div class="mobile-sidebar-cta">
+    <a href="enquiry.html" class="btn btn-brass" style="width:100%; justify-content:center;">Send Enquiry</a>
+  </div>
+</aside>
+
+
+
+
+<header class="page-header">
+  <div class="wrap">
+    <span class="eyebrow">Enquiry</span>
+    <h1>Tell us what you need to import.</h1>
+    <p>Share your product, quantity and destination port — our export desk typically responds within one business day.</p>
+  </div>
+</header>
+
+<section class="section section-paper">
+  <div class="wrap" style="max-width:760px;">
+    <form id="enquiry-form" novalidate>
+      <div class="form-grid">
+        <div class="form-field">
+          <label for="full-name">Full Name *</label>
+          <input type="text" id="full-name" name="full-name" required>
+        </div>
+        <div class="form-field">
+          <label for="company">Company Name</label>
+          <input type="text" id="company" name="company">
+        </div>
+        <div class="form-field">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-field">
+          <label for="phone">Phone / WhatsApp</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-field">
+          <label for="country">Country</label>
+          <input type="text" id="country" name="country">
+        </div>
+        <div class="form-field">
+          <label for="product">Product of Interest</label>
+          <select id="product" name="product">
+            <option value="">Select a category</option>
+            <option>Screws &amp; Fasteners</option>
+            <option>Bearings</option>
+            <option>Industrial Wires</option>
+            <option>Cables</option>
+            <option>Electric Motors</option>
+            <option>Compressors</option>
+            <option>Machine Parts</option>
+            <option>Agricultural Produce</option>
+            <option>Other / Custom Sourcing</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="quantity">Estimated Quantity</label>
+          <input type="text" id="quantity" name="quantity" placeholder="e.g. 500 units / 1 container">
+        </div>
+      </div>
+      <div class="form-field" style="margin-top:6px;">
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Tell us about specifications, target price, and delivery port..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-brass" style="margin-top:22px;">Submit Enquiry</button>
+      <p id="enquiry-status" class="form-status"></p>
+    </form>
+  </div>
+</section>
+
+<style>
+.form-grid{ display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+.form-field{ display:flex; flex-direction:column; gap:8px; margin-top:20px; }
+.form-field label{ font-family:var(--font-mono); font-size:11.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--navy); }
+.form-field input, .form-field select, .form-field textarea{
+  font-family:var(--font-body); font-size:14.5px; color:var(--ink);
+  background:var(--white); border:1px solid var(--paper-line); border-radius:2px;
+  padding:12px 14px; outline:none; transition:border-color .2s ease;
+}
+.form-field input:focus, .form-field select:focus, .form-field textarea:focus{ border-color:var(--brass); }
+.form-status{ margin-top:16px; font-family:var(--font-mono); font-size:13px; color:var(--brass); min-height:1em; }
+@media (max-width:640px){ .form-grid{ grid-template-columns:1fr; } }
+</style>
+
+<script>
+document.getElementById("enquiry-form").addEventListener("submit", function(e){
+  e.preventDefault();
+  document.getElementById("enquiry-status").textContent =
+    "Thank you \u2014 your enquiry has been noted. Our export desk will reach out shortly. (Connect this form to your email service or CRM to enable live submissions.)";
+  this.reset();
+});
+</script>
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div class="footer-brand">
+        <img src="Assets/Logo/tarankan-navigation-logo.png" alt="Tarankan Exim LLP logo">
+        <span><img id = "footer-text-logo" src="Assets/Logo/tarankan-text-logo.png" alt="Tarankan Exim"></img></span>
+      </div>
+      <p class="footer-tag">Reliable Indian Export Partner — sourcing industrial, engineering and agricultural products for global buyers.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="about-us.html">About Us</a>
+      <a href="products.html">Products</a>
+      <a href="export-markets.html">Export Market</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>info@tarankanexim.com</p>
+      <p>+91 90822 17705</p>
+      <p>C/o Shantaram Kisan Kanwa</p>
+      <p>Wadgaon Landaga, Vadgaon Pan</p>
+      <p>Sangamner, Ahmednagar</p>
+      <p>Maharashtra – 422605, India</p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>&copy; 2026 Tarankan Exim LLP. All Rights Reserved.</span>
+    <span>Export Company · Maharashtra, India</span>
+  </div>
+</footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
